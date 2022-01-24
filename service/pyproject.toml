@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "service"
+version = "0.1.0"
+description = ""
+authors = ["Diego Calderon <diegoac2@illinois.edu>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.73.0"
+uvicorn = {extras = ["standard"], version = "^0.17.0"}
+matplotlib = ">=3.2.2"
+numpy = ">=1.18.5"
+Pillow = ">=7.1.2"
+PyYAML = ">=5.3.1"
+requests = ">=2.23.0"
+scipy = ">=1.4.1"
+torch = ">=1.7.0"
+torchvision = ">=0.8.1"
+tensorboard = ">=2.4.1"
+pandas = ">=1.1.4"
+seaborn = ">=0.11.0"
+thop = "^0.0.31"
+opencv-python>=4.1.2
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
