@@ -8,19 +8,20 @@ authors = ["Diego Calderon <diegoac2@illinois.edu>"]
 python = "^3.8"
 fastapi = "^0.73.0"
 uvicorn = {extras = ["standard"], version = "^0.17.0"}
-matplotlib = ">=3.2.2"
-numpy = ">=1.18.5"
-Pillow = ">=7.1.2"
-PyYAML = ">=5.3.1"
-requests = ">=2.23.0"
-scipy = ">=1.4.1"
-torch = ">=1.7.0"
-torchvision = ">=0.8.1"
-tensorboard = ">=2.4.1"
-pandas = ">=1.1.4"
-seaborn = ">=0.11.0"
-thop = "^0.0.31"
-opencv-python>=4.1.2
+matplotlib = {version = ">=3.2.2"}
+opencv-python = {version = ">=4.5.5.62"}
+numpy = {version = ">=1.18.5"}
+Pillow = {version = ">=7.1.2"}
+PyYAML = {version = ">=5.3.1"}
+requests = {version = ">=2.23.0"}
+scipy = {version = ">=1.4.1"}
+torch = {version = ">=1.7.0"}
+torchvision = {version = ">=0.8.1"}
+tensorboard = {version = ">=2.4.1"}
+pandas = {version = ">=1.1.4"}
+seaborn = {version = ">=0.11.0"}
+thop = {version = "^0.0.31"}
+
 
 [tool.poetry.dev-dependencies]
 
